@@ -1,0 +1,203 @@
+body{
+    font-family: 'Lato', sans-serif;
+    /*  */
+}
+nav{
+    box-shadow: 2px 2px 5px #3292a6;
+}
+.course-title
+{
+    font-size: 21px;
+}
+.course-body
+{
+    font-size: 17px;
+}
+.courses-info
+{
+    font-size: 21px;
+}
+.colorit
+{
+    color: #3292a6 !important;
+}
+.hero-title
+{
+    /* font-size: 45px; */
+    font-weight: 900;
+    color: #3292a6;
+    
+
+}
+.navbar-nav
+{
+    font-size: 21px;
+    color:wheat;
+
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.carousel-indicators{
+    
+    background-color: white;
+}
+.carousel-indicators .active{
+    background-color: #3292a6;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+ 
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  font-weight: 900;
+  margin-left:40px ;
+  color: #3292a6;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  margin-right:65px ;
+  font-weight: 900;
+  font-size: 55px;
+  color: #3292a6;
+  
+}
+.course-card:hover
+{
+    transition:all  0.4s ease-in;
+    background-color: #3292a6;
+    color: white;
+}
+
+ /* testiomonies */
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato";
+    /* background: url('https://subtlepatterns.com/patterns/sativa.png'); */
+  }
+  
+  .main-gallery {
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-top: solid 10px #7AA641;
+  
+  }
+  
+  .gallery-cell {
+    width: 100%;
+  }
+  
+  .testimonial {
+    text-align: center;
+    max-width: 850px;
+    margin: 100px auto 130px auto;
+    padding: 0 20px;
+  }
+  
+  .testimonial-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .instituion-content
+  {
+      font-size: 21px;
+  }
+  .about-exe1
+  {
+      display: inline !important;
+      padding-bottom:10px ;
+      border-bottom: 2px solid #3292a6;
+  }
+  .testimonial-quote {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 10px 0;
+    
+  }
+  .about-exe
+  {
+      font-weight: 500;
+      
+  }
+  .testimonial-author {
+    display: block;
+    font-size: 30px;
+    font-weight: 800;
+    color: #3292a6;
+  }
+  
+  .flickity-page-dots {
+    bottom: 25px;
+  }
+  
+  .flickity-page-dots .dot.is-selected {
+    background: #7AA641;
+  }
+  
+
+  .social-media
+  {
+      cursor: pointer;
+  }
+
+  @media screen and (max-width: 750px) {
+    .hero-title
+    {
+        font-size: 38px ;
+    }
+    .hero-content1
+    {
+        font-size: 20px !important;
+    }
+    .adaptive-title
+    {
+        font-size: 19px !important;
+    }
+    .course-info-content
+    {
+        font-size: 17px !important;
+    }
+    .testimonial-quote
+    {
+        font-size: 19px !important;
+    }
+    .instituion-content
+    {
+        font-size: 17px !important;
+    }
+  }
+  
